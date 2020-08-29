@@ -26,14 +26,14 @@ The simulated memory controller module is inserted between the _requester_ (typi
 
 The [project repository](https://github.com/lowRISC/gsoc-sim-mem) contains:
 * Parametrizable synthesisable Register Transfer Level code describing a simulated memory controller.
-* [Documentation](https://github.com/lowRISC/gsoc-sim-mem/documentation.md) describing the functionality in details and how to extend it.
+* [Documentation](https://github.com/lowRISC/gsoc-sim-mem/blob/master/documentation.md) describing the functionality in details and how to extend it.
 * Testbenches, re-usable to validate extensions to the simulated memory controller.
 
 ### Future work
 
 The current simulated memoty controller can be extended in multiple documented ways, notably:
-* The message delays may be calculated in different ways. The simulated memory controller integrates the [First-Ready First Come First Served delay calculation strategy, whih is extremely widely used](http://www-personal.umich.edu/~sphadke/docs/thesis.pdf), but can be adapted to other delay calculation strategies.
+* The message delays may be calculated in different ways. The simulated memory controller integrates the [First-Ready First Come First Served delay calculation strategy, whih is widely used](http://www-personal.umich.edu/~sphadke/docs/thesis.pdf), but can be adapted to other delay calculation strategies.
 * Concurrent processing of multiple requests in separate banks on a single memory channel is not supported yet.
 * Resource usage can be optimized, depending on other extensions.
 
-The future work is better described at the end of the [project documentation](https://github.com/lowRISC/gsoc-sim-mem/documentation.md).
+The future work is better described at the end of the [project documentation](https://github.com/lowRISC/gsoc-sim-mem/blob/master/documentation.md).
