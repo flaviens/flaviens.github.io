@@ -34,7 +34,7 @@ The [project repository](https://github.com/lowRISC/gsoc-sim-mem) contains:
 
 The current simulated memory controller can be extended in multiple documented ways, notably:
 
-* The message delays may be calculated in different ways. The simulated memory controller integrates the [First-Ready First Come First Served delay calculation strategy, whih is widely used](http://www-personal.umich.edu/~sphadke/docs/thesis.pdf), but can be adapted to other delay calculation strategies.
+* The message delays may be calculated in different ways. The simulated memory controller integrates the [First-Ready First Come First Served delay calculation strategy, which is widely used](http://www-personal.umich.edu/~sphadke/docs/thesis.pdf), but can be adapted to other delay calculation strategies.
 * Concurrent processing of multiple requests in separate banks on a single memory channel is not supported yet.
 * Resource usage can be optimized, depending on other extensions.
 
